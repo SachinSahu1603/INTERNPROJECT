@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Lato", sans-serif;
+}
+body {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/55d0fb97e4b00eb973693442/1441230460601-N6MRUUG5S0DRS529FDET/simple-blue-background-abstract-photo-blue-background.jpg?format=1500w");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.full {
+  margin: 150px 50px 50px 0px;
+  /* border: 3.2px solid rgb(51, 50, 50); */
+  height: 450px;
+  width: 325px;
+  border-radius: 15px;
+  /* background-color: rgba(65, 94, 224, 0.832); */
+  background-color: rgb(202, 190, 161);
+  box-shadow: 5px black;
+}
+.fullinside {
+  margin-top: 50px;
+  font-size: 18px;
+}
+.login {
+  font-family: 400;
+  color: rgb(59, 6, 6);
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.form input {
+  width: 270px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: aqua;
+  border: 2px solid black;
+}
+.form .check {
+  width: 30px;
+  height: 18px;
+
+  border-radius: 10px;
+  background-color: aqua;
+  border: 2px solid black;
+  margin: 3px 0px 0px 0px;
+  text-align: ;
+}
+.form label {
+  font-style: ;
+  font-size: 20px;
+  text-align: left;
+  color: rgb(3, 26, 48);
+}
+.form button {
+  margin-top: 20px;
+  width: 90px;
+  height: 35px;
+  font-size: 18px;
+  border-radius: 10px;
+  /* margin: 25px 00px 0 80px; */
+  background-color: orange;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.signup {
+  display: flex;
+  justify-content: center;
+  color: rgb(79, 31, 31);
+  margin-top: 20px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icons {
+  margin-top: 13px;
+}
+.list li {
+  list-style-type: none;
+  font-size: 25px;
+}
+.olms {
+  margin-top: 200px;
+  font-size: 30px;
+  color: rgb(34, 86, 198);
+  border: 4px solid rgb(61, 56, 56);
+  height: 300px;
+  width: 300px;
+  padding: 13px;
+  border-right: none;
+  border-bottom: none;
+  border-top-left-radius: 10px;
+}
+.check {
+  border-radius: 10px;
+}
+button:hover {
+  transform: scale(1.1);
+}
+.icons li:hover {
+  transform: scale(1.2);
+}
+@media (max-width: 700px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .olms {
+    margin-bottom: 250px;
+    font-size: 35px;
+  }
+  button:hover {
+    transform: scale(1.1);
+  }
+  .icons li:hover {
+    transform: scale(1.2);
+  }
+}
